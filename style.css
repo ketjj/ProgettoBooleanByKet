@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* le misure sono in px, non sono ancora pronta per i % :C */
+
+#container {
+  background-color: rgba(0,0,0,.5);
+  position: relative;
+  top: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 20px;
+  width: 960px;
+  height: 650px;
+  margin: auto;
+  padding: 80px;
+  color: white;
+}
+
+#logo {
+  width: 200px;
+}
+.logo-text {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #00dd00;
+  margin-bottom: 5px;
+}
+.green {
+  position: absolute;
+  width: 800px;
+  height: 35px;
+  padding-top: 7px;
+  background-color: #00dd00;
+}
+
+.square {
+  border-radius: 5px;
+  position: absolute;
+  top: 100$
+}
+
+.square.orange {
+  height: 28px;
+  width: 280px;
+  background-color: orange;
+}
+
+.square.darkgreen {
+  width: 500px;
+  height: 28px;
+  background-color: #179E05;
+}
+
+.square.red {
+  width: 120px;
+  height: 28px;
+  background-color: #be4141;
+}
+
+.section {
+  text-align: left;
+  position: absolute;
+}
+.gino {
+  top: 41%;
+}
+
+.mike {
+  top: 56%;
+}
+
+.fede154 {
+  top: 71%;
+}
+
+p {
+  font-size: 12px;
+}
